@@ -1,0 +1,20 @@
+{
+    "name": "izetmolla/coremvc",
+    "description": "Simple mvc core",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Izet Molla",
+            "email": "izetmolla@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "IzetMolla\\Router\\": "router/"
+        }
+    }
+}
